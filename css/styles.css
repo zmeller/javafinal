@@ -8,6 +8,11 @@ form label{
   cursor: pointer;
 }
 
+h1 span {
+	font-size: 60px;
+	font-size: 2em;
+	color: #f16059;
+}  
 .center{
 	display: block;
 	margin-left: auto;
@@ -16,8 +21,18 @@ form label{
 }
 h1{
 	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
 }
 .question{
-	margin-left: 250px;
+	margin-left: 235px;
+	font-weight: bold;
 
+}
+p{
+	text-align: center;
+}
+button{
+	background-color: #f16059;
+	font-weight: 500;
 }
