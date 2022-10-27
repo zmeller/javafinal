@@ -35,10 +35,13 @@ p{
 button{
 	background-color: #f16059;
 	font-weight: bolder;
-	margin-left: 152px;
+	margin-left: 210px;
 }
 label{
 	margin-left: 130px;
 	font-weight: bolder;
-	margin-left: 170px;
+	margin-left: 227px;
+}
+form-text text-danger validationMsg{
+	text-align: center;
 }
