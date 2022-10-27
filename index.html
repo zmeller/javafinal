@@ -20,21 +20,26 @@
 				<h1>MAGIC&nbsp;<span>8</span>&nbsp;BALL</h1>
 			  </div>
 			  <div class="card-body">
+				<!--create form-->
 				<form>
 				  <div class="form-group">
 					<label for="question">Ask Me Anything!</label>
 					<br>
 					<br>
+					<!--create input box-->
 					<input type="text" id="question" name="question" class="form-control border">
 					<br>
 					<small class="form-text text-danger validationMsg"></small>
 				  </div>
+				  <!--button creation-->
 				  <button type="submit" class="button" name="askBtn" disabled>Enter Question Here</button>
 				  <br>
 				  <br>
+				  <!---image in form-->
 				  <img src="/img/magic8ball_empty.png" id="myPic" class="center" width="305" height="305"  >
 				</form>
 			  </div>
+			  <!--question output bottom of form-->
 			  <div class="card-footer" id="answers">
 				<small id="result" class="form-text text-success"></small>
 				
@@ -44,6 +49,7 @@
 		  </div>
 		</div>
 	  </div>
+	  <!--script execution-->
 		<script src="/java/script.js"></script>
  </body>
 </html>
