@@ -6,42 +6,44 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="/css/styles.css">
-		<script src="/java/script.js"></script>
+		
 		<title>Magic 8 Ball</title>
 		
 </head>
 <body>
 	
-	<div class="row justify-content-center">
-	<div class="col-md-6">
-	<div class="card shadow my-5">
-	<div class="card-header">
-		<h1>MAGIC&nbsp;<span>8</span>&nbsp;BALL</h1>
-	</div>
-	<div class="card-body">
-		
-	<img src= "/img/magic8ball_empty.png" width="305" height="345" id="myPicture" class="center" >
-
-	<form>
-		<div class="form-group">
-		<label for="question" class="question">Enter Your Question Here</label>
-		<input type="text" id="question" name="question" class="form-control border">
-		</div>
-
-		<button onclick="choosePic()" class="center" name="askBtn">Ask Me Anything</button>
-		<br>
-		<footer>
-			<p>&copy; Meller 2022</p>
-		</footer>
-	</form>
-	</div>
-	<div class="card-footer" id="answers">
+	<div class="container">
+		<div class="row justify-content-center">
+		  <div class="col-md-6">
+			<div class="card shadow my-5">
+			  <div class="card-header">
+				<h1>MAGIC&nbsp;<span>8</span>&nbsp;BALL</h1>
+			  </div>
+			  <div class="card-body">
+				<form>
+				  <div class="form-group">
+					<label for="question">Ask Me Anything!</label>
+					<br>
+					<br>
+					<input type="text" id="question" name="question" class="form-control border">
+					<br>
+					<small class="form-text text-danger validationMsg"></small>
 				  </div>
-				</div>
+				  <button type="submit" class="button" name="askBtn" disabled>Enter Question Here</button>
+				  <br>
+				  <br>
+				  <img src="/img/magic8ball_empty.png" id="myPic" class="center" width="305" height="305"  >
+				</form>
+			  </div>
+			  <div class="card-footer" id="answers">
+				<small id="result" class="form-text text-success"></small>
+				
+				
 			  </div>
 			</div>
+		  </div>
 		</div>
-	
-		
-	   </body>
-	  </html>
+	  </div>
+		<script src="/java/script.js"></script>
+ </body>
+</html>
